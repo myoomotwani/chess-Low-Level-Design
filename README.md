@@ -1,16 +1,17 @@
 # chessLLD
+# Description of the project
 This is a project to simulate a sequence of chess moves. For each move , the program is expected to 
 
---> Make a move if the move is valid
+--> Make a move if the move is valid <br />
 --> Skip the move if the move is invalid.
 
-The rules and description of the game can be referred from this link. https://workat.tech/machine-coding/practice/design-chess-validator-to77d8oqpx2h
+# Rules
+The rules and description of the game can be referred from this link. https://workat.tech/machine-coding/practice/design-chess-validator-to77d8oqpx2h <br />
 Pasting the rules below as well for convenience. 
 
 Let's look at the game of Chess. Chess is a two-player strategy game played on an 8*8 checkered board.
 
 
-Rules of the game
 The game is played between two players. One player controls an army of white pieces and the other controls the army of black pieces.
 Each army includes the following pieces: 1 King, 1 Queen, 2 Knights, 2 Rooks, 2 Bishops, 8 Pawns
 Each piece has its own way of moving on the board.
@@ -22,24 +23,24 @@ There are more rules but it is outside the scope of this problem.
 Piece Moves
 Let's look at all the valid moves of the different types of pieces.
 
-Pawn
+###  Pawn
 A pawn can move to a cell which is one step immediately in front of it.
 If it is the first move of that pawn, it can move two positions to a cell in front. Both the cells in front of it needs to be unoccupied.
  It can also move one step diagonally in front while capturing a piece of the opponent. The capture cannot happen without moving diagonally.
  
- Knight
+###   Knight
 A knight moves in an 'L' shape, i.e., two steps horizontally and one step vertically or two steps vertically and one step horizontally.
 The knight can leap over other pieces to land directly on the destination cell.
 
-Rook
+###  Rook
 A rook can move any number of steps either horizontally or vertically without leaping over any other piece.
 
-Bishop
+###  Bishop
 A bishop can move any number of steps diagonally without leaping over any other piece.
 
-Queen
+###  Queen
 A queen can move any number of steps in any direction (horizontally, vertically, or diagonally) without leaping over any other piece.
 
-King
+###  King
 A king can move one step in any direction (horizontally, vertically, or diagonally).
 
