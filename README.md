@@ -1,9 +1,10 @@
-# chessLLD
+# chess Simulator Low level design 
 # Description of the project
-This is a project to simulate a sequence of chess moves. For each move , the program is expected to 
+This  project is a low level design to simulate a sequence of chess moves. For each move , the program is expected to 
 
 --> Make a move if the move is valid <br />
 --> Skip the move if the move is invalid.
+
 
 # Rules
 The rules and description of the game can be referred from this link. https://workat.tech/machine-coding/practice/design-chess-validator-to77d8oqpx2h <br />
@@ -45,4 +46,40 @@ A queen can move any number of steps in any direction (horizontally, vertically,
 
 ###  King
 A king can move one step in any direction (horizontally, vertically, or diagonally).
+
+# Board Representation
+The chess board is represented in form of a 2d array. <br />  
+String[][] board = new String[8][8];
+
+each piece is denoted in form of a two letter string. For e.g "BR". The first letter represents the color of player. Second letter denotes the piece. In this case rook.<br />
+BR -> B = Black R = Rook
+
+The  position of a piece on board is assigned using below expression  <br />
+board[0][0] =  "BR";
+
+The empty blocks are represented using two hyphens <br />
+board[3][0] =  "--";
+
+W and B represents a white and black piece respectively  <br />
+P => Pawn  <br />
+R => Rook  <br />
+N => Knight  <br />
+B => Bishop  <br />
+Q => Queen  <br />
+K => King  <br />
+An empty cell is represented by two hyphens (--).  <br />
+
+# Moves representation
+Each move looks like below
+e2 e4 <br /> 
+The above move denotes --> Attempt a move from e4 to e2. If the move is valid , the board positions should change. Else , we should print an error message.
+<br /> 
+In the imput we will have multiple lines with each line containing the Start Position End Position. Both the positions will be separated by a space.
+
+makeAMove( new String[]{ "a2" , "a4"} );<br />
+makeAMove( new String[]{ "a7" , "a6"} );<br />
+makeAMove( new String[]{ "a4" , "a5"} );<br />
+
+
+
 
