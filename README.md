@@ -69,11 +69,11 @@ K => King  <br />
 An empty cell is represented by two hyphens (--).  <br />
 
 # Moves representation
-Each move looks like below
-e2 e4 <br /> 
-The above move denotes --> Attempt a move from e4 to e2. If the move is valid , the board positions should change. Else , we should print an error message.
+A move looks like below <br /> <br /> 
+makeAMove( new String[]{ "e2" , "e4"} ); <br /> <br /> 
+The above annotation denotes --> Attempt a move from e2 to e4. If the move is valid , the board positions should change. Else , we should print an error message.
 <br /> 
-In the imput we will have multiple lines with each line containing the Start Position End Position. Both the positions will be separated by a space.
+In the input we will have a sequence of such moves containing the Start Position End Position. 
 
 makeAMove( new String[]{ "a2" , "a4"} );<br />
 makeAMove( new String[]{ "a7" , "a6"} );<br />
