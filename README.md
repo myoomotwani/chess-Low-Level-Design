@@ -11,6 +11,10 @@ Pasting the rules below as well for convenience.
 
 Let's look at the game of Chess. Chess is a two-player strategy game played on an 8*8 checkered board.
 
+![chess board image](https://github.com/myoomotwani/chessLLD/issues/1)
+
+<img src="https://github.com/myoomotwani/chessLLD/issues/1" alt="chess board" title="Optional title">
+
 
 The game is played between two players. One player controls an army of white pieces and the other controls the army of black pieces.
 Each army includes the following pieces: 1 King, 1 Queen, 2 Knights, 2 Rooks, 2 Bishops, 8 Pawns
