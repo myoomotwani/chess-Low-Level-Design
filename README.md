@@ -12,8 +12,7 @@ Pasting the rules below as well for convenience.
 
 Let's look at the game of Chess. Chess is a two-player strategy game played on an 8*8 checkered board.
 
-![chess board image]( https://user-images.githubusercontent.com/13993416/208280342-f408c7f2-9156-4fa0-a414-9f499ede89a8.jpg )
-
+![Chess_Init](https://user-images.githubusercontent.com/13993416/208284486-357ca3a0-0c5c-4786-b092-004b5b4cb678.png)
 
 The game is played between two players. One player controls an army of white pieces and the other controls the army of black pieces.
 Each army includes the following pieces: 1 King, 1 Queen, 2 Knights, 2 Rooks, 2 Bishops, 8 Pawns
